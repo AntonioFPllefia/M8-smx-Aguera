@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+#sobre-mi{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 800px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+#Proyectos-Recientes{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 800px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: #007BFF;
+}
+h2{
+    color: #007BFF;
+}
+h3{
+    color: #007BFF;
+}
+h4{
+    color: #007BFF;
+    
+}

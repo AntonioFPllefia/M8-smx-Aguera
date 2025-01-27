@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-image: url(bg-libros.jpg);
+    padding: 70px;
+}
+main{
+    background-color: brown;
+    padding: 50px;
+    border-radius: 20px;
+}
+h1{
+    border: yellow 5px solid;
+    padding: 10px;
+    color: white;
+    font-family: 'Doto';
+}
+h2{
+    border: palevioletred 5px solid;
+    padding: 5px;
+    color: white;
+}
+#datos{
+    border: greenyellow 5px solid;
+    color: blue;
+}
+#datos li{
+    padding: 10px;
+}
+#descripcion{
+    background: darkblue;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+#descripcion h2{
+    color: orange;
+    border:none;
+}
+#contenido{
+    color: blue;
+    border: greenyellow 5px solid;
+    padding: 10px;
+}
+.laquetuquieras{
+    color: white;
+}
