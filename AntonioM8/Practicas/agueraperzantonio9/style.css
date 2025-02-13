@@ -1,0 +1,8 @@
+.Tablas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+td,th{
+    padding: 5px;
+}
