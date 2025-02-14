@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="Container">
-        <h1>Hubspot CMS</h1>
-        <h2>Manage Your Hubspot website without a developer</h2>
-        <button>Learn More</button>
+    <!-- div que dentro tiene las dos secciones una al lado de la otra -->
+    <div class="container">
+        <div class="seccion-izq">
+            <h1>Hubspot CMS</h1>
+            <h2>Manage Your Hubspot website without a developer</h2>
+            <button>Learn More</button>
+        </div>
+        <div class="seccion-der">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+       
     </div>
+    <!-- footer -->
+     <footer>
+        <h3>blalalalala</h3>
+     </footer>
 </body>
 </html>
