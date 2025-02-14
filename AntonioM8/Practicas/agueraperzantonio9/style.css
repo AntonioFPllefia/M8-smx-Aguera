@@ -4,5 +4,26 @@
     gap: 30px;
 }
 td,th{
-    padding: 5px;
+    padding: 15px 25px;
+}
+table{ 
+    border-collapse: collapse;
+}
+.Manualidad{
+    background-color: orange;
+}
+.Arte{
+    background-color: greenyellow;
+}
+.Latin{
+    background-color: palevioletred;
+}
+.Robotica{
+    background-color: fuchsia;
+}
+.Ingenieria{
+    background-color: yellow;
+}
+.Japones{
+    background-color: cyan;
 }
