@@ -4,12 +4,20 @@
     align-self: center;
     border: 2px purple solid;
 }
+/* separación de secciones */
 div{
     border: 2px green solid;
 }
+/* footer de la pagina */
 footer{
-    background-color:darkgray;
+    background-color:whitesmoke;
     padding: 30px;
     display: flex;
     justify-content: center;
+}
+/* Boton de la página */
+button{
+    background-color:darkviolet;
+    color: white;
+    padding: 15px;
 }
