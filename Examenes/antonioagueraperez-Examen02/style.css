@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f1923;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid red;
+}
+th{
+    background: red;
+    color: white;
+}
+td{
+    color: white;
+}
+tr{
+    border: 2;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+.Valorant{
+    color: #ff4655;
+}
+.LoL{
+    color: #ff4655;
+}
+.Dota{
+    color: #ff4655;
+}
+.CS2{
+    color: #ff4655;
+}
+.Grand{
+    color: #ff4655;
+}
+form{
+    color: white;
+}
