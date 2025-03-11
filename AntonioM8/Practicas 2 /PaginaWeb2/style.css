@@ -1,0 +1,48 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-1{
+    flex-direction: column;
+}
+
+.titulo{
+    margin-top: 80px;
+}
+
+.texto{
+    width: 400px;
+    text-align: justify;
+}
+
+.imagen-1{
+    margin-top: 50px;
+}
+
+.imagen-2{
+    margin-top: 100px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    color: #25252540;
+}
+
+button{
+    padding: 15px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 157px;
+    size: 50px;
+    background-color: black;
+    color: white;
+}
