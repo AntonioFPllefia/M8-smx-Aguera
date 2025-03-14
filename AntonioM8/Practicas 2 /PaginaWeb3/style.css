@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 157px;
+    size: 50px;
+}
+
+h1 {
+  width: 50%;
+}
+p {
+  width: 50%;
+}
