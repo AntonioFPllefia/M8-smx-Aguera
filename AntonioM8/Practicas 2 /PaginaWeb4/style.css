@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primero{
+    color: gray;
+}
+
+.segundo{
+    color: gray;
+}
+
+button{
+    padding: 15px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 157px;
+    size: 50px;
+    background-color: black;
+    color: white;
+}
+
