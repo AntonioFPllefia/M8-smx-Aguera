@@ -1,22 +1,82 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Serif Display';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Serif Display";
 }
 
-.header{
+header{
     display: flex;
     flex-direction: row;
+    padding-bottom: 40px;
+}
+
+header img{
+    width: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.section-left{
+    background-image: url(https://wallpapers.com/images/hd/emily-didonato-american-fashion-model-awsnfi4679z5x2xa.jpg?authuser=0);
+    width: 300%;
+    padding-bottom: 50%;
+}
+
+
+.section-right{
+    background-color: #C75050;
+    padding-left: 30%;
+    width: 50%;
+}
+
+.section-right h3{
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-size: 26px;
+    width: 250px;
+}
+
+.section-right p{
+    color: white;
+    font-size: 16px;
+    width: 320px;
+}
+
+.section-right button{
+    border-radius: 1px solid;
+    border: none;
+    background-color: white;
+    color: black;
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     gap: 30px;
+    padding-left: 680px;
 }
 
 nav ul li{
-    list-style:none;
-    text-decoration:none;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    margin-left: auto;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
 }
